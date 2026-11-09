@@ -1,6 +1,6 @@
-# ðŸ” Password Generator
+# 🔐 Password Generator
 
-A clean, responsive **random password generator** built with **vanilla HTML, CSS, and JavaScript** â€” no frameworks, no libraries, no build step. Pick a length, choose which character types to include, and generate a strong password instantly.
+A clean, responsive **random password generator** built with **vanilla HTML, CSS, and JavaScript** — no frameworks, no libraries, no build step. Pick a length, choose which character types to include, and generate a strong password instantly.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -8,7 +8,7 @@ A clean, responsive **random password generator** built with **vanilla HTML, CSS
 
 ---
 
-## ðŸ“Œ Project Type
+## 📌 Project Type
 
 | | |
 |---|---|
@@ -16,35 +16,35 @@ A clean, responsive **random password generator** built with **vanilla HTML, CSS
 | **Type** | Static single-page application (SPA-style, no routing) |
 | **Purpose** | Generate random, customizable passwords in the browser |
 | **Dependencies** | None |
-| **Build Tools** | None â€” runs directly in the browser |
+| **Build Tools** | None — runs directly in the browser |
 
 ---
 
-## ðŸ›  Tech Stack
+## 🛠 Tech Stack
 
 | Layer | Technology |
 |---|---|
 | Markup | HTML5 |
-| Styling | CSS3 (Flexbox, CSS variables-free custom styling, media queries) |
+| Styling | CSS3 (Flexbox, custom styling, media queries) |
 | Logic | Vanilla JavaScript (ES6+) |
-| Fonts | Google Fonts â€” Roboto |
+| Fonts | Google Fonts — Roboto |
 | Hosting | Any static host (GitHub Pages, Netlify, Vercel) |
 
 ---
 
-## âœ¨ Features
+## ✨ Features
 
-- ðŸ”¢ **Adjustable password length** (2 â€“ 30 characters)
-- ðŸ”  **Toggle character sets** â€” uppercase, lowercase, numbers, symbols
-- â™»ï¸ **Auto-generates a password** on page load
-- âš¡ **Instant regeneration** with a single click
-- ðŸŒˆ **Modern neon/glassmorphism UI** with gradient background and glow effects
-- ðŸ“± **Fully responsive** â€” optimized for mobile, tablet, and desktop
-- ðŸ§© **Zero dependencies** â€” one HTML file, one CSS file, one JS file
+- 🔢 **Adjustable password length** (2 – 30 characters)
+- 🔠 **Toggle character sets** — uppercase, lowercase, numbers, symbols
+- ♻️ **Auto-generates a password** on page load
+- ⚡ **Instant regeneration** with a single click
+- 🌈 **Modern neon UI** with gradient background and glow effects
+- 📱 **Fully responsive** — optimized for mobile, tablet, and desktop
+- 🧩 **Zero dependencies** — one HTML file, one CSS file, one JS file
 
 ---
 
-## âš™ï¸ How It Works
+## ⚙️ How It Works
 
 1. The script collects the selected character sets (`A-Z`, `a-z`, `0-9`, `~!@#$%^&*()_+/`).
 2. It recursively appends one random character from each enabled set until the password reaches the requested length.
@@ -54,20 +54,20 @@ A clean, responsive **random password generator** built with **vanilla HTML, CSS
 
 ---
 
-## ðŸ“ Project Structure
+## 📁 Project Structure
 
 ```
 PasswordGenerator/
-â”œâ”€â”€ index.html        # UI markup
-â”œâ”€â”€ css/
-â”‚   â””â”€â”€ custom.css    # Styling, animations, responsive rules
-â””â”€â”€ js/
-    â””â”€â”€ app.js        # Password generation logic
+├── index.html        # UI markup
+├── css/
+│   └── custom.css    # Styling, animations, responsive rules
+└── js/
+    └── app.js        # Password generation logic
 ```
 
 ---
 
-## ðŸš€ Getting Started
+## 🚀 Getting Started
 
 No installation required.
 
@@ -79,11 +79,11 @@ git clone https://github.com/faisalrlakhany/PasswordGenerator.git
 cd PasswordGenerator
 ```
 
-Then simply open `index.html` in your browser â€” or use VS Code's **Live Server** extension.
+Then simply open `index.html` in your browser — or use VS Code's **Live Server** extension.
 
 ---
 
-## ðŸ§  Concepts Practiced
+## 🧠 Concepts Practiced
 
 - DOM manipulation with `getElementById`
 - Event listeners and form inputs (`checkbox`, `number`)
@@ -93,7 +93,7 @@ Then simply open `index.html` in your browser â€” or use VS Code's **Live S
 
 ---
 
-## ðŸ‘¨â€ðŸ’» Author
+## 👨‍💻 Author
 
 **Muhammad Faisal Lakhany**
 GitHub: [@faisalrlakhany](https://github.com/faisalrlakhany)
